@@ -7,6 +7,8 @@ Upstream docs: https://docling-project.github.io/docling/
 > **2026-09-02** — Added this API summary and pinned `transformers>=5.10.0` via a `uv` override to fix CVE-2026-9856 (docling's own dependency pin caps it below the patched version). — Claude (Sonnet 5)
 >
 > **2026-09-02** — No conversion pipeline configured yet; source is a stub. — Claude (Sonnet 5)
+>
+> **2026-09-02** — Researched docling-serve REST API; Heron/TableFormer-accurate already default. — Claude (Sonnet 5)
 
 ## Install
 
