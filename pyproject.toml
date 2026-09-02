@@ -20,3 +20,9 @@ dev = [
     "pytest>=9.1.1",
     "ruff>=0.16.5",
 ]
+
+[tool.uv]
+# docling/docling-core pin transformers<5.9.0; force the patched version for
+# GHSA-xrqw-3rrv-vx5w (CVE-2026-9856, path traversal in save_pretrained()).
+# Verify docling's OCR/VLM/chunking paths still work whenever docling is upgraded.
+override-dependencies = ["transformers>=5.10.0"]
