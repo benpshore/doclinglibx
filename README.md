@@ -9,6 +9,8 @@ Upstream docs: https://docling-project.github.io/docling/
 > **2026-09-02** — No conversion pipeline configured yet; source is a stub. — Claude (Sonnet 5)
 >
 > **2026-09-02** — Researched docling-serve REST API; Heron/TableFormer-accurate already default. — Claude (Sonnet 5)
+>
+> **2026-09-02** — Reading order is a fixed rule-based step, not user-configurable. — Claude (Sonnet 5)
 
 ## Install
 
