@@ -1,7 +1,7 @@
 [project]
 name = "doclinglibx"
 version = "0.1.0"
-description = "Add your description here"
+description = "Configuration and extensions for IBM Docling document conversion"
 readme = "README.md"
 authors = [
     { name = "Ben Shore", email = "jobs_raceway0p@icloud.com" }
@@ -28,3 +28,10 @@ dev = [
 # GHSA-xrqw-3rrv-vx5w (CVE-2026-9856, path traversal in save_pretrained()).
 # Verify docling's OCR/VLM/chunking paths still work whenever docling is upgraded.
 override-dependencies = ["transformers>=5.10.0"]
+
+[tool.ruff]
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
