@@ -9,6 +9,8 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "docling>=2.123.1",
+    "docling-mcp>=3.2.0",
+    "docling-serve>=1.31.0",
 ]
 
 [build-system]
