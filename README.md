@@ -1,2 +1,2 @@
 simple configuration of IBM's docling using uv python 3.14 and configured for metal acceleration on apple silicon ARM64.
-fixed ai mess with git cleanup Tue Sep  8 04:43:43 MDT 2026
+fixed ai mess with git cleanup Tue Sep  8 04:43:43 MDT 2026remember to uv upgrade before trying to build on current package and uv sync Tue Sep  8 04:51:05 MDT 2026
